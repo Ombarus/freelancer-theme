@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "csv", "~> 3.3"
   spec.add_runtime_dependency "logger", "~> 1.7.0"
 
-  spec.add_development_dependency "bundler", "~> 4.0"
+  spec.add_development_dependency "bundler", "> 2.7"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "html-proofer", "~> 5.0"
   spec.add_development_dependency "kramdown", "~> 2.3.0"
